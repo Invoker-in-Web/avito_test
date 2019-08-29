@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.allProductsClass {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.newProductClass {
+    margin: 5px 10px 5px 10px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.productPictureDivClass {
+    cursor: pointer;
+}
+
+.productTitleDivClass {
+    color: #0091d9;
+    margin: 2px;
+    cursor: pointer;
+    text-align: left;
+    width: 200px;
+}
+
+.productPriceDivClass {
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.sellerDivClass {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.productPicturesLengthClass {
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+    color: white;
+    border: 1px solid #5f6568;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0px 5px 0px 5px;
+    background-color: #5f6568;
+}
+
+.extraPhotoesClass {
+    margin: 0px;
+}
+
+.sellerNameDivClass {
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-style: italic;
+}
